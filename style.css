@@ -50,12 +50,40 @@
     margin: 10px 350px 10px 350px;
     
 }
-.profile-container{
+.projects-container{
     display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
 }
 .project-box{
-    width:50px;
-    height: 100px;
+    width:180px;
+    height: 120px;
     border-radius: 10px;
-    background: ;
+    border: 2px solid lightgray;
+    text-align: center;
+
+}
+h2{
+    text-align: center;
+}
+
+.form-container{
+    background: rgb(249,245,235,255);
+}
+.name-input{
+    width: 100px;
+    height: 25px;
+}
+.mail-input{
+    width: 350px;
+    height: 25px;
+}
+.msg-input{
+    width: 500px;
+    height: 50px;
+    display: block;
+}
+.form-text{
+    padding: 30px;
+    margin-top: 10px;
 }
