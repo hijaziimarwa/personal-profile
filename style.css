@@ -1,9 +1,9 @@
-.container {
+.header-container {
   border: 3px solid lightgray;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background: gray;
+  background: lightgray;
 }
 .box {
   width: 60px;
@@ -19,4 +19,15 @@
 }
 .nav {
   display: flex;
+}
+
+.profile-container{
+    background: lightyellow;
+    display: flex;
+
+}
+.profile-photo{
+    width: 100px;
+    border-radius: 50px;
+
 }
