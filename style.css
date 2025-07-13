@@ -1,0 +1,22 @@
+.container {
+  border: 3px solid lightgray;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: gray;
+}
+.box {
+  width: 60px;
+  height: 20px;
+  margin: 10px;
+  text-align: center;
+}
+.username {
+  width: 60px;
+  height: 20px;
+  margin: 10px;
+  text-align: center;
+}
+.nav {
+  display: flex;
+}
