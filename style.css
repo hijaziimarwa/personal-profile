@@ -1,9 +1,9 @@
 .header-container {
-  border: 3px solid lightgray;
+  
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background: lightgray;
+  background: rgb(246,247,246,255);
 }
 .box {
   width: 60px;
@@ -22,7 +22,7 @@
 }
 
 .profile-container{
-    background: lightyellow;
+    background: rgb(249,245,235,255);
     display: flex;
 
 }
@@ -30,4 +30,10 @@
     width: 100px;
     border-radius: 50px;
 
+}
+.view-work-button{
+    background: rgb(44,90,158,255);
+    border-radius: 5px ;
+    color: white;
+    
 }
